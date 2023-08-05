@@ -1,0 +1,86 @@
+.main-wallet-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 2rem;
+    gap: 10px;
+    margin: 10px;
+
+    .wallet-header-text {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #000000;
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    .main-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 41.125rem;
+        height: 26.53rem;
+        flex-shrink: 0;
+        border-radius: 22.992px;
+        background: #FFF;
+        box-shadow: 2.299212694168091px -3.0656168460845947px 19.926509857177734px 0px rgba(0, 0, 0, 0.25);
+        padding: 2rem;
+    }
+
+    .wallet-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 38rem;
+        height: 4rem;
+        flex-shrink: 0;
+        border-radius: 15.328px;
+        background: #FFF;
+        box-shadow: 0px 3.0656168460845947px 3.0656168460845947px 0px rgba(0, 0, 0, 0.25);
+        padding: 10px;
+        margin: 4px;
+    }
+
+    .wallet-conten-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+
+
+    }
+
+    .wallet-icon {
+        font-weight: 500;
+        font-size: 22px;
+        width: 2rem;
+        min-width: 2rem;
+        margin: 0 0.5rem;
+        text-align: center;
+
+    }
+
+    .main-text {
+        font-weight: 700;
+        font-size: 22px;
+        margin: 0 0.5rem;
+        color: #717983;
+        text-align: center;
+    }
+
+    .total-container {
+        display: inline-flex;
+        padding: 4.598px 9.092px 4.816px 12.263px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7.664px;
+        border: 1.533px solid #46BD0D;
+        background: rgba(150, 247, 105, 0.37);
+        color: #317c0e;
+    }
+}
